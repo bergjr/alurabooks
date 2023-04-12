@@ -1,0 +1,31 @@
+.topics {
+    background: var(--background-blue-gradient);
+    padding: 1.5em 0 2em 0;
+}
+
+.topics__title {
+    font-family: var(--font-family);
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--background-white);
+    text-align: center;
+    padding-bottom: 2em;
+    
+}
+
+.topics__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    align-items: center;
+    justify-content: center;
+}
+
+.topics__wrapper__item {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    background-color: var(--background-yellow);
+    color: var(--background-white);
+    padding: 1em 1.5em;
+}

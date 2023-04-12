@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("topics.css");
+@import url("updates.css");
+@import url("footer.css");
+
+:root {
+    --background-main: #EBECEE;
+    --background-blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --background-yellow: #EB9B00;
+    --background-white: #FFFFFF;
+    --background-grey: #C4C4C4;
+    --color-blue: #002F52;
+    --font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: var(--blackground-main);
+    width: 100%;
+}
+
+
