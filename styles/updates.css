@@ -1,6 +1,7 @@
 .updates {
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
     gap: 1em;
     padding: 1.5em;
     color: var(--color-blue);
@@ -36,3 +37,35 @@
     background: url("../assets/Email.svg") no-repeat;
     background-position: 3%; 
 }
+
+@media screen and (min-width: 1024px) {
+    .updates {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 132px;
+        /* margin: 0 10%; */
+    }
+
+    .updates__title {
+        font-size: 1.5em;
+    }
+
+    .updates__info {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    .updates__button-wrapper {
+        height: 35%;
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1724px) {
+    .updates {
+        margin: 0 20vw;
+    }
+}    

@@ -1,9 +1,13 @@
 .carrossel {
     background-color: var(--background-main);
+}
+
+.carrossel__container {
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
 }
+
 .carrossel__title {
     color: var(--background-yellow);
     background-color: var(--background-white);
@@ -12,11 +16,6 @@
     font-weight: 700;
     padding: 1.5em 0 1em 0;
     text-transform: uppercase;
-}
-
-.carrossel__content {
-    background-color: var(--background-main);
-    height: 620px;
 }
 
 .swiper {
@@ -92,4 +91,81 @@
 
 .card__wrapper__info__stars {
     width: 91px;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__container {
+        height: 817px;
+    }
+    .swiper-slide  {
+        width: 162px;
+        height: 300px;
+    }
+
+    .swiper {
+        width: 58%;
+        margin: 0 auto 61px auto;
+        
+    }
+
+    .swiper-pagination {
+        margin: 1.5em 0 3em 0;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        margin: auto 0;
+    }
+
+    .card {
+        width: 588px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 0 auto;
+    }
+
+    .card__wrapper {
+        gap: 65%;
+    }
+
+    .card__wrapper__info__interest, .card__wrapper__info__title, .card__wrapper__info__text {
+        width: 318px;
+    }
+
+    .card__info__buttons {
+        display: flex;
+    }
+
+    .card__wrapper__info__text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .swiper {
+        width: 669px;
+        margin: 0 1vw 3em 10vw;
+    }
+
+    .swiper-pagination {
+        margin-top: 30px;
+    }
+
+    .card {
+        padding-bottom: 15px;
+        width: 588px;
+    }
+
+    .card__wrapper__info__interest {
+        font-size: 32px;
+    }
+
+    .card__wrapper__info__text {
+        font-size: 16px;
+    }
 }

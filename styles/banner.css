@@ -49,4 +49,26 @@
     margin: auto 0;
 }
 
+@media screen and (min-width: 1024px) {
+    
+    .banner {
+        height: 375px;
+    }
+    
+    .banner__title {
+        font-size: 2.45em;
+    }
+
+    .banner__text {
+        font-size: 1.5em;
+        width: auto;
+    }
+
+    .banner__button::placeholder {
+        font-size: 1em;
+        background-position: 3.5rem;
+        padding-left: 3.52em;
+    }
+}
+
 

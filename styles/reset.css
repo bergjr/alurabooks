@@ -80,3 +80,7 @@ select {
 	font-weight: inherit;
 	font-family: inherit;
 }
+
+hr {
+	margin: 0;
+}
